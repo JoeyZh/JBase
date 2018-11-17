@@ -1,6 +1,6 @@
 apply plugin: 'com.android.library'
 
-def versionJar = "1.1.0"
+def versionJar = "1.1.1"
 def suffix = "alp"
 def libraryId = "com.joeyzh.base"
 android {
