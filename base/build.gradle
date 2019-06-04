@@ -43,7 +43,7 @@ task makeJar(type: Copy) {
 
     def fileName = libraryId + "." + suffix + "_v" + versionJar
     //删除存在的
-    delete 'build/libs/*'
+//    delete 'build/libs/*'
     //设置拷贝的文件路径
     from('build/intermediates/bundles/release/')
     //打进jar包后的文件目录
